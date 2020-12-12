@@ -37,9 +37,7 @@ class App extends React.Component {
             <IconButton edge="start" color="inherit" aria-label="menu">
               <ComputerIcon/>
             </IconButton>
-
             <span><b>Configurator</b> PC</span>
-{/* aici sunt linkurile  reack tag link      vue router-lick*/}
             <div className="action-buttons">
               <Button color="inherit">
                 <Link to="/">Products</Link>

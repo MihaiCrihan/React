@@ -84,3 +84,18 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.action-button-cart {
+  text-align: right;
+  margin-right: 8px;
+}
+.action-button-cart span:nth-child(1) {
+  margin-right: 8px;
+}
+.MuiInputBase-input {
+  padding: 14px 0 7px !important;
+}

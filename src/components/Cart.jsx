@@ -31,7 +31,7 @@ class Cart extends React.Component {
   }
 
   totalPrice = () => {
-    return this.props.cart.reduce((sum, item) => (item.quantity * item.product.price) + sum, 0) // tot ce este cu this.props este legat cu store
+    return this.props.cart.reduce((sum, item) => (item.quantity * item.product.price) + sum, 0)
   }
 
   modifyProduct = (index, e) => {
@@ -111,7 +111,7 @@ class Cart extends React.Component {
               })}
             </List>
             <div className="divider"/>
-            <div className="">
+            <div className="action-button-cart">
               <span className="text-total-price"> Total: {this.totalPrice()} $</span>
               <Button variant="contained" color="secondary" onClick={this.handleClickOpen}>
                 Checkout
